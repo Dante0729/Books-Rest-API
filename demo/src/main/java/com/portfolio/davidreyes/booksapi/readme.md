@@ -22,10 +22,9 @@ This is a comprehensive bookstore management system built using Spring Boot, dem
 2. **Database Configuration**: Create a PostgreSQL database and update the `application.properties` with your database credentials:
 
     ```properties
-    spring.datasource.url=jdbc:postgresql://localhost:5432/books
-    spring.datasource.username=postgres
-    spring.datasource.password=yourPassword
-    ```
+spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
+spring.datasource.username=<DB_USERNAME>
+spring.datasource.password=<DB_PASSWORD>
 
 3. **Running the Application**:
     - Navigate to the project root directory.
